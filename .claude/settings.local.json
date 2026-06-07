@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"E:/downloads/第三十九期团校结业考试参考题库.docx\" 2>&1 | head -5)",
+      "Read(//e/tmp/**)",
+      "Bash(cp \"E:/downloads/第三十九期团校结业考试参考题库.docx\" ./quiz.docx)",
+      "Bash(unzip -o quiz.docx -d quiz_extracted)",
+      "Bash(cp \"E:/downloads/第三十九期团校结业考试参考题库.docx\" ./quiz_temp.docx)",
+      "Bash(unzip -o quiz_temp.docx -d quiz_extracted)"
+    ]
+  }
+}
